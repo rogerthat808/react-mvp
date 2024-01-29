@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+/* Actual Styling */
+
+body {
+  background-color: rgb(245, 238, 220);
+}
+
+.container {
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-top: 5%;
+}
+
+.Title {
+  text-align: center;
+  margin-top: 5%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 60px;
+  background-color: rgb(206, 236, 255);
+  border-radius: 20px;
+  width: 300px;
+  margin-left: 40%;  
+}

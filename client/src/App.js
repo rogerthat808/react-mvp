@@ -8,6 +8,7 @@ import ListTodos from "./components/ListTodo";
 function App() {
   return (
     <Fragment>
+      <h1 className="Title">React MVP</h1>
       <div className="container">
         <InputTodo />
         <ListTodos />
