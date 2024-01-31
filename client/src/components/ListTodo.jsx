@@ -19,6 +19,8 @@ const ListTodos = () => {
     }
   }
 
+  // get todo function
+
   const getTodos = async () => {
     try {
       const response = await fetch("http://localhost:8080/todo")
